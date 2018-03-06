@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :photos
   resources :tags
   resources :pages
   root to: 'pages#index'
